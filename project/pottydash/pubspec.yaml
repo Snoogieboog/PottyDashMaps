@@ -1,0 +1,30 @@
+name: pottydash
+description: A public restroom finder app with Google Maps and Firebase integration.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.0
+
+  # Google Maps
+  google_maps_flutter: ^2.6.0
+
+  # UI & Utilities
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

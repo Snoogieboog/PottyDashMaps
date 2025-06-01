@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "PottyDash",
+    "slug": "potty-dash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "pottydash",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/PottyDash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0066B3"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pottydash.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0066B3"
+      },
+      "package": "com.pottydash.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAqOcv5KhzPgk6BskYD7HZS8l57PGzuQzQ"
+        }
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow PottyDash to use your location to find nearby restrooms."
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://owflqobeafildcalqhjr.supabase.co",
+      "supabaseKey": "process.env.SUPABASE_KEY"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440592280196",
+    "project_id": "pottydash-1a8ff",
+    "storage_bucket": "pottydash-1a8ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440592280196:android:a0004af11a9cb517a970d1",
+        "android_client_info": {
+          "package_name": "com.pottydash.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440592280196-t53f1kt3otrs1htq7r65d2vhfqv9ron1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqOcv5KhzPgk6BskYD7HZS8l57PGzuQzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440592280196-t53f1kt3otrs1htq7r65d2vhfqv9ron1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
