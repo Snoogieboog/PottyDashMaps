@@ -1,5 +1,5 @@
 [versions]
-appcompat = "1.7.0"
+appcompat = "1.7.1"
 recyclerview = "1.3.2"
 volley = "1.2.1"
 kotlinBom = "2.0.0"
