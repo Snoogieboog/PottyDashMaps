@@ -6,7 +6,7 @@ kotlinBom = "2.0.0"
 playServicesMaps = "19.0.0"
 junit = "4.13.2"
 androidxJunit = "1.2.1"
-espresso = "3.6.1"
+espresso = "3.7.0"
 
 
 [libraries]
